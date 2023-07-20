@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./App.js"></script>
+    <title>Chapter_43_to_48:</title>
+    <style>
+        /* img{
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            cursor: pointer;
+        }
+        .mob_1 {
+            width: 170px;
+            height: 200px;
+        }
+       */
+    </style>
+</head>
+
+<body>
+    <!-- Question_01: -->
+    <a href="#" onclick="show()">Click Me!</a>
+    <!-- Question_02: -->
+    <img class="mob_1" src="./images/mob_1.jpg" onclick="showMessage('Thanks for purchasing mobile phone')" alt="">
+    <img class="mob_2" src="./images/mob_2.jpg" onclick="showMessage('Thanks for purchasing mobile phone')" alt="">
+    <img class="mob_3" src="./images/mob_3.jpg" onclick="showMessage('Thanks for purchasing mobile phone')" alt="">
+    <img class="mob_4" src="./images/mob_4.png" onclick="showMessage('Thanks for purchasing mobile phone')" alt="">
+    <!-- Question_03: -->
+    <table>
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Fiza</td>
+                <td>12</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sahar</td>
+                <td>8</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Zainab</td>
+                <td>11</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Ali</td>
+                <td>10</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Saad</td>
+                <td>9</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Maryam</td>
+                <td>5</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>Ahsan</td>
+                <td>4</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Amber</td>
+                <td>8</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>Iraj</td>
+                <td>4</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+                <td>Aneela</td>
+                <td>3</td>
+                <td><button class="delete-button" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+    <!-- Question_04: -->
+    <img id="image" src="./images/wallpaper.jpg" alt="Image" onmouseover="changeImage('./images/mob_1.jpg')" onmouseout="resetImage()">
+    <!-- Question_05: -->
+    <div id="counter-value">0</div>
+    <button id="increase-btn">Increase</button>
+    <button id="decrease-btn">Decrease</button>
+
+</body>
+
+</html>
